@@ -5,12 +5,12 @@
      Creation: 07/05/2023
      Last modification: 09/05/2023 */
 
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/calculator-learning/',
+  base: '/calc-learn/',
   test: {
     setupFiles: './src/setupTests.js',
     globals: true,
